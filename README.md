@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+//Portuguese
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎮 Tic Tac Toe - Jogo da Velha
 
-Currently, two official plugins are available:
+Um jogo da velha desenvolvido com **React**, **TypeScript**, **ShadCN** e **Tailwind CSS**. 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Funcionalidades
 
-## Expanding the ESLint configuration
+- 🏆 Modo para dois jogadores (Player vs. Player)
+- 🎨 UI moderna com **ShadCN** e **Tailwind CSS**
+- ⚡ Animações suaves e transições fluidas
+- 🔄 Reinício rápido da partida
+- 🎯 Indicação do vencedor ou empate
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- ⚛ **React** - Biblioteca para criação de interfaces
+- 🟦 **TypeScript** - Tipagem estática para maior segurança no código
+- 🎨 **ShadCN** - Componentes estilizados com Radix e Tailwind
+- 💨 **Tailwind CSS** - Estilização rápida e responsiva
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Como Rodar o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 1️⃣ Clone o repositório:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+git clone https://github.com/seu-usuario/tic-tac-toe.git
+
+//English
+🎮 Tic Tac Toe
+A Tic Tac Toe game built with React, TypeScript, ShadCN, and Tailwind CSS. 🚀
+
+📌 Features
+🏆 Two-player mode (Player vs. Player)
+
+🎨 Modern UI with ShadCN and Tailwind CSS
+
+⚡ Smooth animations and transitions
+
+🔄 Quick game restart
+
+🎯 Winner or tie detection
+
+🛠️ Technologies Used
+⚛ React - Library for building UI components
+
+🟦 TypeScript - Static typing for better code security
+
+🎨 ShadCN - Styled components using Radix and Tailwind
+
+💨 Tailwind CSS - Fast and responsive styling
 ```
