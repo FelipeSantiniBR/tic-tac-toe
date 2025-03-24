@@ -19,13 +19,6 @@ Um jogo da velha desenvolvido com **React**, **TypeScript**, **ShadCN** e **Tail
 - 🎨 **ShadCN** - Componentes estilizados com Radix e Tailwind
 - 💨 **Tailwind CSS** - Estilização rápida e responsiva
 
-## 🚀 Como Rodar o Projeto
-
-### 1️⃣ Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/tic-tac-toe.git
-
 //English
 🎮 Tic Tac Toe
 A Tic Tac Toe game built with React, TypeScript, ShadCN, and Tailwind CSS. 🚀
@@ -49,4 +42,7 @@ A Tic Tac Toe game built with React, TypeScript, ShadCN, and Tailwind CSS. 🚀
 🎨 ShadCN - Styled components using Radix and Tailwind
 
 💨 Tailwind CSS - Fast and responsive styling
+
+```
+
 ```
