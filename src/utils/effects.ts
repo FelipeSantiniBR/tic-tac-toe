@@ -1,8 +1,6 @@
 import confetti from "canvas-confetti";
 
-// Função para disparar fogos de artifício
 export function fireworks(): void {
-  // Dispara fogos de artifício de várias cores
   const duration = 3000;
   const animationEnd = Date.now() + duration;
   const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
@@ -20,7 +18,6 @@ export function fireworks(): void {
 
     const particleCount = 50 * (timeLeft / duration);
 
-    // Fogos de artifício em posições aleatórias
     confetti({
       ...defaults,
       particleCount,
